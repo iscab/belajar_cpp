@@ -1,10 +1,10 @@
 /**
-* A file to learn variables.
+* A file to learn variables (part 1).
 * 
 * it is working, after compiled with 
 * - Visual C++ 2022
 * 
-* version: 13:53 28.07.2022
+* version: 10:10 11.08.2022
 */
 
 #include<iostream>
@@ -25,7 +25,7 @@ int main()
 }
 
 /**
-* version: 13:53 28.07.2022
+* version: 10:10 11.08.2022
 * 
 * End of file
 */
