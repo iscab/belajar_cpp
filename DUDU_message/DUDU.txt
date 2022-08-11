@@ -1,12 +1,6 @@
 ﻿
 DUDU:
-08:15 11.08.2022
-
-########
-
-TODO: create HelloWorld01 folder with the file Hello.cpp in private laptop   
-content: //empty file  
-office laptop --> private laptop 
+13:03 11.08.2022
 
 ########
 
