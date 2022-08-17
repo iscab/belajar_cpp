@@ -4,10 +4,11 @@
 * it is working, after compiled with
 * - Visual C++ 2022
 *
-* version: 11:55 17.08.2022
+* version: 12:42 17.08.2022
 */
 
 #include<iostream>
+#include<string>
 
 int main()
 {
@@ -17,12 +18,17 @@ int main()
 
 	int myTaxRate = 4;
 
+	const std::string MY_NAME = "Ignatius Sapto Condro";
+
+	// MY_NAME = "Johny";  // error
+	std::cout << MY_NAME << std::endl;
+
 
 	return 0;
 }
 
 /**
-* version: 11:55 17.08.2022
+* version: 12:42 17.08.2022
 *
 * End of file
 */
