@@ -4,7 +4,7 @@
 * it is working, after compiled with
 * - Visual C++ 2022
 *
-* version: 07:41 18.10.2022
+* version: 09:30 19.10.2022
 */
 
 #include<iostream>
@@ -20,6 +20,10 @@ int main()
 	if (age >= 21) {
 		std::cout << "Here have a beer" << std::endl;
 	}
+	else if (age >= 16) {
+		std::cout << "Here have a Coke!" << std::endl;
+		std::cout << "And, at least you can drive!" << std::endl;
+	}
 	else {
 		std::cout << "Here have a Coke!" << std::endl;
 	}
@@ -30,7 +34,7 @@ int main()
 }
 
 /**
-* version: 07:41 18.10.2022
+* version: 09:30 19.10.2022
 *
 * End of file
 */
