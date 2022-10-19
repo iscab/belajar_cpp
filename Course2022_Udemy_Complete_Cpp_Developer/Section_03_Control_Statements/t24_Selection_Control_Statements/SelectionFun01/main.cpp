@@ -1,10 +1,10 @@
 /**
-* cpp file about selection control statements
+* cpp file about selection control statements with if, else if, and else  
 *
 * it is working, after compiled with
 * - Visual C++ 2022
 *
-* version: 09:30 19.10.2022
+* version: 09:31 19.10.2022
 */
 
 #include<iostream>
@@ -34,7 +34,7 @@ int main()
 }
 
 /**
-* version: 09:30 19.10.2022
+* version: 09:31 19.10.2022
 *
 * End of file
 */
