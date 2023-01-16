@@ -4,7 +4,7 @@
 * it is working, after compiled with
 * - Visual C++ 2022
 *
-* version: 09:12 16.01.2023
+* version: 09:13 16.01.2023
 */
 
 #include<iostream>
@@ -39,11 +39,31 @@ int main()
 	}
 	std::cout << "\n" << std::endl;
 
+	// more loop example
+	int input;
+	std::cout << "more loop example:  \n" << std::endl;
+	
+	// priming read
+	std::cout << "Please enter a non-negative integer to continue, ";
+	std::cout << "or negative if you want to guit " << std::endl;
+
+	std::cin >> input;
+	std::cin.get();
+	while(input >=0)
+	{ 
+		std::cout << input << std::endl;
+		std::cout << "Please enter a non-negative integer to continue, ";
+		std::cout << "or negative if you want to guit " << std::endl;
+
+		std::cin >> input;
+		std::cin.get();
+	} // end while
+
 	return 0;
 }
 
 /**
-* version: 09:12 16.01.2023
+* version: 09:13 16.01.2023
 *
 * End of file
 */
