@@ -4,7 +4,7 @@
 * it is working, after compiled with
 * - Visual C++ 2022
 *
-* version: 09:10 16.01.2023
+* version: 09:11 16.01.2023
 */
 
 #include<iostream>
@@ -21,11 +21,21 @@ int main()
 	}
 	std::cout << "\n" << std::endl;
 
+	// do-while
+	int count2 = 0;  // try 0 and 10  
+
+	std::cout << "do-while-loop:  " << std::endl;
+	do {
+		std::cout << count2 << std::endl;
+		count2++;
+	} while (count2 < 10);
+	std::cout << "\n" << std::endl;
+
 	return 0;
 }
 
 /**
-* version: 09:10 16.01.2023
+* version: 09:11 16.01.2023
 *
 * End of file
 */
