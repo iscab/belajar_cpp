@@ -4,7 +4,7 @@
 * it is working, after compiled with
 * - Visual C++ 2022
 *
-* version: 09:13 16.01.2023
+* version: 09:15 16.01.2023
 */
 
 #include<iostream>
@@ -41,6 +41,7 @@ int main()
 
 	// more loop example
 	int input;
+	int sum = 0;
 	std::cout << "more loop example:  \n" << std::endl;
 	
 	// priming read
@@ -52,18 +53,20 @@ int main()
 	while(input >=0)
 	{ 
 		std::cout << input << std::endl;
+		sum += input;
 		std::cout << "Please enter a non-negative integer to continue, ";
 		std::cout << "or negative if you want to guit " << std::endl;
 
 		std::cin >> input;
 		std::cin.get();
 	} // end while
+	std::cout << "The sum is " << sum << " \n" << std::endl;
 
 	return 0;
 }
 
 /**
-* version: 09:13 16.01.2023
+* version: 09:15 16.01.2023
 *
 * End of file
 */
