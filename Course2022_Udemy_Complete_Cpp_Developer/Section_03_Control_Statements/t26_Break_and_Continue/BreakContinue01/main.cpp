@@ -4,7 +4,7 @@
 * it is working, after compiled with
 * - Visual C++ 2022
 *
-* version: 09:51 24.01.2023 
+* version: 09:52 24.01.2023 
 */
 
 #include<iostream>
@@ -14,7 +14,7 @@ int main()
 	int count = 0;
 
 	// continue in a while
-	std::cout << "continue in a while: " << std::endl;
+	std::cout << "continue in a while-loop: " << std::endl;
 	while (count < 10)
 	{
 		if (count == 5) {
@@ -26,11 +26,22 @@ int main()
 	}
 	std::cout << " \n" << std::endl;
 
+	// for loop with continue
+	std::cout << "for loop with continue: " << std::endl;
+	for (int ii = 0; ii < 10; ii++)
+	{
+		if (ii == 5) {
+			continue;
+		}
+		std::cout << ii << std::endl;
+	}
+	std::cout << " \n" << std::endl;
+
 	return 0;
 }
 
 /**
-* version: 09:51 24.01.2023 
+* version: 09:52 24.01.2023 
 *
 * End of file
 */
